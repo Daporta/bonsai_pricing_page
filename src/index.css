@@ -1,0 +1,35 @@
+@font-face {
+  font-family: figtree;
+  src: url('./assets/font/Figtree-Regular.ttf');
+}
+
+@font-face {
+  font-family: figtree;
+  src: url('./assets/font/Figtree-ExtraBold.ttf');
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: figtree;
+  src: url('./assets/font/Figtree-SemiBold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: figtree;
+  src: url('./assets/font/Figtree-Light.ttf');
+  font-weight: lighter;
+}
+
+:root {
+  font-family: figtree;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 200vh;
+  background-color: #fff;
+  box-sizing: border-box;
+}

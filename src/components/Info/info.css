@@ -1,0 +1,329 @@
+.info-wrapper {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.blue-shape {
+    display: block;
+    position: absolute;
+    top: -250px;
+    right: -110px;
+    width: 90%;
+    height: 170%;
+    z-index: -1;
+    background-color: #f2faff;
+    transform: rotate(-23deg);
+    border-radius: 30px;
+}
+
+.header-toggle-wrapper {
+    width: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+    padding-top: 150px;
+    margin-bottom: 30px;
+}
+
+.header-container h1 {
+    font-size: 38px;
+    margin-left: 75px;
+    color: #4c525a;
+}
+
+.toggle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 25px;
+    margin-right: -75px;
+}
+
+.monthly-text {
+    font-size: 17px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #4c525a;
+
+}
+
+.yearly-text {
+    font-size: 17px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #4c4d5f;
+}
+
+.toggle {
+    background-color: #00b289;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.toggle-ball {
+    background-color: #fff;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    transition: 0.3s;
+}
+
+.toggle-ball.monthly {
+    left: 2px;
+}
+
+.toggle-ball.yearly {
+    left: 31px;
+}
+
+.header-image {
+    position: relative;
+    top: -35px;
+    right: 125px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.card-wrapper {
+    width: 290px;
+    border: 1px solid rgba(2, 4, 69, .15);
+    border-radius: 5px;
+    background-color: #fbfcff;
+    padding: 45px 40px;
+    color: #4c525a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 68px 0 rgba(2, 4, 69, .08);
+    position: relative;
+    overflow: hidden;
+}
+
+.popular-banner {
+    position: absolute;
+    right: -100px;
+    transform: rotate(45deg);
+    background-color: #01b289;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding: 11px 100px;
+}
+
+.card-name-description h3 {
+    font-size: 26px;
+    margin-bottom: -10px;
+}
+
+.card-name-description p {
+    font-size: 14px;
+    max-width: 85%;
+}
+
+.card-price {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #00b289;
+    flex-wrap: wrap;
+}
+
+.card-price .dollar-sign {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.card-price .price {
+    font-size: 62px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.card-price .month-text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #4c525a;
+}
+
+.card-price .billed-yearly-text {
+    width: 100%;
+    color: #4c525a;
+    font-size: 16px;
+    text-align: end; 
+    margin-bottom: 3px;  
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    row-gap: 25px;
+    margin-top: 40px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+}
+
+.feature i {
+    color: #00b289;
+}
+
+.feature li {
+    font-size: 16px;
+    color: #4c4d5f;
+    margin: 0;
+    margin-left: 10px;
+    cursor: default;
+}
+
+.card-button {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-button a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 25px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #00b289;
+}
+
+.card-button a:hover {
+    background-color: #00a37e;
+}
+
+.add-ons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.add-on-header-container h2{
+    font-size: 32px;
+    color: #4c525a;
+    font-weight: lighter;
+    margin-bottom: 45px;
+}
+
+.add-ons-container {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.add-on-wrapper {
+    padding: 10px 40px 5px;
+    box-shadow: 0 0 60px 0 rgba(2, 4, 69, .05);
+}
+
+.add-on-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-on-name-description-container {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.add-on-name-description-container h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #4c525a;
+    margin-bottom: 5px;
+}
+
+.add-on-name-description-container p {
+    margin: 0;
+    font-size: 16px;
+    color: #4c525a;
+}
+
+.add-on-name-description-container .link {
+    margin-top: 10px;
+    color: #00b289;
+    cursor: pointer;
+}
+.add-on-name-description-container .link a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00b289;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.add-on-name-description-container .link:hover a {
+    margin-right: 10px;
+}
+
+.add-on-name-description-container .link i {
+    font-size: 11px;
+}
+
+.add-on-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.add-on-price-container .price-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4c525a;
+}
+
+.add-on-price-container .price-number {
+    font-size: 44px;
+    font-weight: bold;
+    color: #4c525a;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.add-on-price-container .month-text {
+    font-size: 14px;
+    color: #4c525a;
+}
+
+.add-on-price-container .year-text {
+    font-size: 14px;
+    color: #4c525a;
+}

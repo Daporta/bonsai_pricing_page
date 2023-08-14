@@ -1,0 +1,66 @@
+a {
+    text-decoration: none;
+    color: #4c4d5f;
+    cursor: pointer;
+}
+
+.option a:hover,
+.accordion a:hover {
+    color: #0d0d14;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #4c4d5f;
+    margin-bottom: 50px;
+}
+
+.footer-wrapper {
+    width: 100vw;
+    margin: 120px 0 160px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.columns-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column-container {
+    width: 293px;
+}
+
+.column-section {
+    margin-bottom: 30px;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.accordion {
+    margin-bottom: 10px;
+}
+
+.accordion .title-chevron {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.accordion .accordion-options {
+    margin-left: 10px;
+    height: 0;
+    transition: 0.3s;
+}
+
+.accordion .accordion-options.active {
+    height: auto;
+}
